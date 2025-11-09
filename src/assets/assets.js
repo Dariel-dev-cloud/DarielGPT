@@ -47,7 +47,7 @@ export const assets = {
 
 export const dummyUserData = {
     "_id": "689c6deed410acddc0d95a0e",
-    "name": "GreatStack",
+    "name": "DarielDev",
     "email": "admin@example.com",
     "password": "$2b$10$VESVdPDjL5LF.KCU6jKyqeXNSLASAAfpR2kkIJExtMO.PJvZJAudy",
     "credits": 200,
@@ -263,7 +263,7 @@ export const dummyChats = [
                 "content": ai_image7,
                 "timestamp": 1755164001928,
             }
-            
+
         ],
         "createdAt": "2025-08-13T17:29:52.421Z",
         "updatedAt": "2025-08-14T09:39:19.046Z",
