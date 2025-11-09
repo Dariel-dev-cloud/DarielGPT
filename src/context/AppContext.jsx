@@ -28,6 +28,8 @@ export const AppContextProvider = ({ children }) => {
             document.documentElement.classList.remove('dark');
         }
 
+        localStorage.setItem('theme', theme);
+
     }, [theme])
 
     useEffect(() => {

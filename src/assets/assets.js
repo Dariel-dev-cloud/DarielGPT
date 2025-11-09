@@ -25,7 +25,7 @@ import ai_image8 from "./ai_image8.jpg";
 import ai_image9 from "./ai_image9.jpg";
 import ai_image10 from "./ai_image10.jpg";
 import ai_image11 from "./ai_image11.jpg";
-import ai_image12 from "./ai_image12.jpg";
+
 
 export const assets = {
     logo,
@@ -84,13 +84,13 @@ export const dummyChats = [
         "_id": "689de4bbaa932dc3a8ef6cd7",
         "userId": "689c6deed410acddc0d95a0e",
         "userName": "GreatStack",
-        "name": "New Chat",
+        "name": "Nuevo Chat",
         "messages": [
             {
                 "isImage": false,
                 "isPublished": false,
                 "role": "user",
-                "content": "a boy running on water",
+                "content": "un niño corriendo sobre el agua",
                 "timestamp": 1755178179612,
             },
             {
@@ -107,27 +107,27 @@ export const dummyChats = [
     {
         "_id": "689ccb9016a922dd57a23fce",
         "userId": "689c6deed410acddc0d95a0e",
-        "name": "New Chat",
+        "name": "Nuevo Chat",
         "messages": [
             {
                 "isImage": false,
                 "isPublished": false,
                 "role": "user",
-                "content": "hello ",
+                "content": "hola ",
                 "timestamp": 1755106415912,
             },
             {
                 "isImage": false,
                 "isPublished": false,
                 "role": "assistant",
-                "content": "Hello! 😊 How can I assist you today?",
+                "content": "¡Hola! 😊 ¿Cómo puedo ayudarte hoy?",
                 "timestamp": 1755106420723,
             },
             {
                 "isImage": false,
                 "isPublished": false,
                 "role": "user",
-                "content": "Generate a image of boy talking with others",
+                "content": "Genera una imagen de un niño hablando con otros",
                 "timestamp": 1755107475040,
             },
             {
@@ -141,21 +141,21 @@ export const dummyChats = [
                 "isImage": false,
                 "isPublished": false,
                 "role": "user",
-                "content": "i have to create a realistic image of jungle with wild animals so create a prompt for it",
+                "content": "tengo que crear una imagen realista de la selva con animales salvajes, así que crea un prompt para ello",
                 "timestamp": 1755158982894,
             },
             {
                 "isImage": false,
                 "isPublished": false,
                 "role": "assistant",
-                "content": "Here's a detailed and structured prompt to generate a highly realistic jungle scene with wild animals:  \n\n---  \n\n**Prompt:**  \n*\"Ultra-realistic, hyper-detailed photorealistic jungle landscape teeming with wildlife. The setting is a dense, vibrant rainforest bathed in dappled sunlight filtering through the thick canopy. Towering ancient trees with intricate root systems, lush green ferns, vines, and exotic flowers create a rich, immersive environment. A clear, sparkling stream winds through the scene, reflecting the lush surroundings.  \n\nWildlife in their natural habitat:  \n- A majestic Bengal tiger crouches on a moss-covered rock near the water, muscles tensed as it watches for prey.  \n- A family of elephants moves gently through the undergrowth, led by a large matriarch with a protective stance.  \n- Colorful macaws and parrots perch on high branches, their bright feathers contrasting with the greenery.  \n- A stealthy jaguar lurks in the shadows, its golden eyes piercing.  \n- A troupe of playful monkeys swings from vines, their expressions lively and dynamic.  \n- A slow-moving sloth clings to a tree branch, blending into the foliage.  \n\nAtmospheric elements:  \n- Soft mist lingers near the forest floor, adding depth.  \n- Dragonflies and butterflies hover near the water's edge.  \n- Distant bird calls and rustling leaves create an immersive ambiance.  \n\nCinematic composition with balanced lighting—sunbeams piercing through the canopy in a god-ray effect. Depth of field focuses sharply on the tiger while softly blurring the background for realism. Shot with a high-resolution DSLR style for maximum detail, 8K quality. Ultra HD, National Geographic-style wildlife photography.\"*  \n\n---  \n\n### **Tips for Adjusting the Prompt:**  \n- **For a more serene scene:** Remove predators (like the jaguar) and focus on grazing animals like deer or tapirs.  \n- **For a darker, mysterious tone:** Add rain, stormy lighting, or a twilight setting.  \n- **For more biodiversity:** Include reptiles (snakes, frogs) or insects (beetles, spiders).  \n\nWould you like any modifications for a specific mood or artistic style (e.g., painterly, cinematic, or fantasy-inspired)?",
+                "content": "Aquí hay un prompt detallado y estructurado para generar una escena de selva altamente realista con animales salvajes:  \n\n---  \n\n**Prompt:**  \n*\"Paisaje de selva fotorrealista ultra realista e hiper detallado repleto de vida silvestre. El escenario es una selva tropical densa y vibrante bañada por la luz moteada del sol que se filtra a través del dosel espeso. Árboles antiguos imponentes con intrincados sistemas de raíces, helechos verdes exuberantes, enredaderas y flores exóticas crean un ambiente rico e inmersivo. Un arroyo cristalino serpentea por la escena, reflejando los alrededores exuberantes.  \n\nVida silvestre en su hábitat natural:  \n- Un majestuoso tigre de Bengala se agacha sobre una roca cubierta de musgo cerca del agua, con los músculos tensos mientras observa a su presa.  \n- Una familia de elefantes se mueve suavemente por la maleza, liderada por una gran matriarca con una postura protectora.  \n- Guacamayos y loros coloridos se posan en ramas altas, sus plumas brillantes contrastan con la vegetación.  \n- Un jaguar sigiloso acecha en las sombras, sus ojos dorados penetrantes.  \n- Una tropa de monos juguetones se balancea de las enredaderas, sus expresiones animadas y dinámicas.  \n- Un perezoso de movimiento lento se aferra a una rama de árbol, mezclándose con el follaje.  \n\nElementos atmosféricos:  \n- Una niebla suave persiste cerca del suelo del bosque, agregando profundidad.  \n- Libélulas y mariposas revolotean cerca del borde del agua.  \n- Cantos de pájaros distantes y hojas susurrantes crean un ambiente inmersivo.  \n\nComposición cinematográfica con iluminación equilibrada: rayos de sol que atraviesan el dosel en un efecto de rayo divino. La profundidad de campo se enfoca nítidamente en el tigre mientras difumina suavemente el fondo para mayor realismo. Fotografiado con un estilo DSLR de alta resolución para máximo detalle, calidad 8K. Ultra HD, fotografía de vida silvestre estilo National Geographic.\"*  \n\n---  \n\n### **Consejos para ajustar el Prompt:**  \n- **Para una escena más serena:** Elimina los depredadores (como el jaguar) y concéntrate en animales de pastoreo como ciervos o tapires.  \n- **Para un tono más oscuro y misterioso:** Agrega lluvia, iluminación tormentosa o un escenario al atardecer.  \n- **Para más biodiversidad:** Incluye reptiles (serpientes, ranas) o insectos (escarabajos, arañas).  \n\n¿Te gustaría alguna modificación para un estado de ánimo o estilo artístico específico (por ejemplo, pictórico, cinematográfico o inspirado en fantasía)?",
                 "timestamp": 1755158995829,
             },
             {
                 "isImage": false,
                 "isPublished": false,
                 "role": "user",
-                "content": "Ultra-realistic, hyper-detailed photorealistic jungle landscape teeming with wildlife. The setting is a dense, vibrant rainforest bathed in dappled sunlight filtering through the thick canopy. Towering ancient trees with intricate root systems, lush green ferns, vines, and exotic flowers create a rich, immersive environment. A clear, sparkling stream winds through the scene, reflecting the lush surroundings.  Wildlife in their natural habitat:  A majestic Bengal tiger crouches on a moss-covered rock near the water, muscles tensed as it watches for prey. A family of elephants moves gently through the undergrowth, led by a large matriarch with a protective stance. Colorful macaws and parrots perch on high branches, their bright feathers contrasting with the greenery. A stealthy jaguar lurks in the shadows, its golden eyes piercing. A troupe of playful monkeys swings from vines, their expressions lively and dynamic. A slow-moving sloth clings to a tree branch, blending into the foliage. Atmospheric elements:  Soft mist lingers near the forest floor, adding depth. Dragonflies and butterflies hover near the water's edge. Distant bird calls and rustling leaves create an immersive ambiance. Cinematic composition with balanced lighting—sunbeams piercing through the canopy in a god-ray effect. Depth of field focuses sharply on the tiger while softly blurring the background for realism. Shot with a high-resolution DSLR style for maximum detail, 8K quality. Ultra HD, National Geographic-style wildlife photography.",
+                "content": "Paisaje de selva fotorrealista ultra realista e hiper detallado repleto de vida silvestre. El escenario es una selva tropical densa y vibrante bañada por la luz moteada del sol que se filtra a través del dosel espeso. Árboles antiguos imponentes con intrincados sistemas de raíces, helechos verdes exuberantes, enredaderas y flores exóticas crean un ambiente rico e inmersivo. Un arroyo cristalino serpentea por la escena, reflejando los alrededores exuberantes. Vida silvestre en su hábitat natural: Un majestuoso tigre de Bengala se agacha sobre una roca cubierta de musgo cerca del agua, con los músculos tensos mientras observa a su presa. Una familia de elefantes se mueve suavemente por la maleza, liderada por una gran matriarca con una postura protectora. Guacamayos y loros coloridos se posan en ramas altas, sus plumas brillantes contrastan con la vegetación. Un jaguar sigiloso acecha en las sombras, sus ojos dorados penetrantes. Una tropa de monos juguetones se balancea de las enredaderas, sus expresiones animadas y dinámicas. Un perezoso de movimiento lento se aferra a una rama de árbol, mezclándose con el follaje. Elementos atmosféricos: Una niebla suave persiste cerca del suelo del bosque, agregando profundidad. Libélulas y mariposas revolotean cerca del borde del agua. Cantos de pájaros distantes y hojas susurrantes crean un ambiente inmersivo. Composición cinematográfica con iluminación equilibrada: rayos de sol que atraviesan el dosel en un efecto de rayo divino. La profundidad de campo se enfoca nítidamente en el tigre mientras difumina suavemente el fondo para mayor realismo. Fotografiado con un estilo DSLR de alta resolución para máximo detalle, calidad 8K. Ultra HD, fotografía de vida silvestre estilo National Geographic.",
                 "timestamp": 1755159013677,
             },
             {
@@ -169,35 +169,35 @@ export const dummyChats = [
                 "isImage": false,
                 "isPublished": false,
                 "role": "user",
-                "content": "top web technologies to learn in 2025",
+                "content": "principales tecnologías web para aprender en 2025",
                 "timestamp": 1755159074583,
             },
             {
                 "isImage": false,
                 "isPublished": false,
                 "role": "assistant",
-                "content": "Here are the top web technologies to learn in 2025 to stay competitive in the industry:\n\n### **Frontend Development**  \n1. **React.js** – Still the dominant frontend library with increasing adoption of **React Server Components (RSC)** and **Next.js**.  \n2. **Next.js (v14+)** – Meta-framework for React enabling **server-side rendering (SSR)**, static site generation (SSG), and edge computing.  \n3. **Vue.js (v3.x + Vite)** – Growing ecosystem with better DX and performance.  \n4. **Svelte & SvelteKit** – Rising in popularity due to its compile-time reactivity and lightweight output.  \n5. **WebAssembly (WASM)** – Enables near-native performance for web apps (used in Figma, Photoshop, etc.).  \n\n### **Backend Development**  \n6. **Node.js (v20+)** – Still leading in JavaScript-based backend development.  \n7. **Deno & Bun** – Faster alternatives to Node.js with modern APIs (Bun is gaining traction for speed).  \n8. **Python (FastAPI, Django, Flask)** – Python remains strong for backend and AI-powered apps.  \n9. **Rust (Actix, Axum, Rocket)** – High-performance backend development with safety guarantees.  \n10. **Go (Golang)** – Valued for scalable backend systems (used by Uber, Twitch, Docker).  \n\n### **Full-Stack & Cloud-Native**  \n11. **GraphQL (Apollo, Relay)** – Alternative to REST for efficient API queries.  \n12. **Serverless (AWS Lambda, Vercel, Cloudflare Workers)** – Shift toward edge computing and serverless architectures.  \n13. **Web3 & Blockchain (Ethereum, Solana, Web3.js, Ethers.js)** – Emerging in decentralized apps (dApps).  \n14. **Microservices & Kubernetes** – Essential for scalable cloud-native apps.  \n\n### **CSS & Styling**  \n15. **Tailwind CSS** – Utility-first CSS framework dominating modern UI development.  \n16. **CSS Modules & CSS-in-JS (Emotion, Styled Components)** – Scoped styling for component-based apps.  \n17. **PostCSS & Modern CSS (Flexbox, Grid, Container Queries)** – Advanced styling techniques.  \n\n### **Database & State Management**  \n18. **PostgreSQL, MongoDB, & Edge Databases (PlanetScale, Neon, Supabase)** – SQL + NoSQL trends.  \n19. **Prisma, DrizzleORM** – Modern ORMs for TypeScript/Node.js.  \n20. **GraphQL Client State (RTK Query, Apollo Client, URQL)** – Managing data efficiently.  \n\n### **Emerging & Future-Proof Tech**  \n21. **AI & LLM Integration (OpenAI, LangChain)** – AI-powered web apps (ChatGPT plugins, copilots).  \n22. **Progressive Web Apps (PWAs + Web APIs)** – Offline-first, installable web apps.  \n23. **WebRTC & Real-Time (Socket.io, Liveblocks, PartyKit)** – Real-time collaboration features.  \n24. **3D & WebGL (Three.js, Babylon.js, React Three Fiber)** – Interactive 3D web experiences.  \n25. **Motion UI & Animation (GSAP, Framer Motion)** – Advanced web animations.  \n\n### **Must-Have Tools & DevOps**  \n- **Git, CI/CD (GitHub Actions, Vercel, Netlify)**  \n- **Docker & Kubernetes** (for containerization)  \n- **Testing (Vitest, Playwright, Cypress, Jest)**  \n\n### **Why Learn These in 2025?**  \n- **Speed & Efficiency**: Tools like **Bun, Rust, and WASM** optimize performance.  \n- **AI Integration**: AI is being embedded into web dev at a rapid pace.  \n- **Edge Computing & Serverless**: Cloud providers are pushing serverless/edge deployments.  \n- **Full-Stack Dominance**: Frameworks like **Next.js, SvelteKit, and Remix** blur frontend/backend lines.  \n\nFocus on **React + Next.js, Rust/Go for backend, TypeScript, and AI integrations** for maximum opportunities in 2025. 🚀  \n\nWould you like a tailored roadmap based on your goals?",
+                "content": "Aquí están las principales tecnologías web para aprender en 2025 para mantenerse competitivo en la industria:\n\n### **Desarrollo Frontend**  \n1. **React.js** – Todavía la biblioteca frontend dominante con una creciente adopción de **React Server Components (RSC)** y **Next.js**.  \n2. **Next.js (v14+)** – Meta-framework para React que habilita **renderizado del lado del servidor (SSR)**, generación de sitios estáticos (SSG) y edge computing.  \n3. **Vue.js (v3.x + Vite)** – Ecosistema en crecimiento con mejor DX y rendimiento.  \n4. **Svelte & SvelteKit** – Aumentando en popularidad debido a su reactividad en tiempo de compilación y salida ligera.  \n5. **WebAssembly (WASM)** – Habilita rendimiento casi nativo para aplicaciones web (usado en Figma, Photoshop, etc.).  \n\n### **Desarrollo Backend**  \n6. **Node.js (v20+)** – Todavía liderando en desarrollo backend basado en JavaScript.  \n7. **Deno & Bun** – Alternativas más rápidas a Node.js con APIs modernas (Bun está ganando tracción por velocidad).  \n8. **Python (FastAPI, Django, Flask)** – Python sigue fuerte para backend y aplicaciones impulsadas por IA.  \n9. **Rust (Actix, Axum, Rocket)** – Desarrollo backend de alto rendimiento con garantías de seguridad.  \n10. **Go (Golang)** – Valorado para sistemas backend escalables (usado por Uber, Twitch, Docker).  \n\n### **Full-Stack & Cloud-Native**  \n11. **GraphQL (Apollo, Relay)** – Alternativa a REST para consultas API eficientes.  \n12. **Serverless (AWS Lambda, Vercel, Cloudflare Workers)** – Cambio hacia edge computing y arquitecturas serverless.  \n13. **Web3 & Blockchain (Ethereum, Solana, Web3.js, Ethers.js)** – Emergente en aplicaciones descentralizadas (dApps).  \n14. **Microservicios & Kubernetes** – Esencial para aplicaciones cloud-native escalables.  \n\n### **CSS & Estilos**  \n15. **Tailwind CSS** – Framework CSS utility-first que domina el desarrollo de UI moderno.  \n16. **CSS Modules & CSS-in-JS (Emotion, Styled Components)** – Estilos con alcance para aplicaciones basadas en componentes.  \n17. **PostCSS & CSS Moderno (Flexbox, Grid, Container Queries)** – Técnicas de estilo avanzadas.  \n\n### **Base de Datos & Gestión de Estado**  \n18. **PostgreSQL, MongoDB, & Edge Databases (PlanetScale, Neon, Supabase)** – Tendencias SQL + NoSQL.  \n19. **Prisma, DrizzleORM** – ORMs modernos para TypeScript/Node.js.  \n20. **GraphQL Client State (RTK Query, Apollo Client, URQL)** – Gestión eficiente de datos.  \n\n### **Tecnologías Emergentes y A Prueba de Futuro**  \n21. **AI & LLM Integration (OpenAI, LangChain)** – Aplicaciones web impulsadas por IA (plugins ChatGPT, copilotos).  \n22. **Progressive Web Apps (PWAs + Web APIs)** – Aplicaciones web instalables y offline-first.  \n23. **WebRTC & Real-Time (Socket.io, Liveblocks, PartyKit)** – Características de colaboración en tiempo real.  \n24. **3D & WebGL (Three.js, Babylon.js, React Three Fiber)** – Experiencias web 3D interactivas.  \n25. **Motion UI & Animation (GSAP, Framer Motion)** – Animaciones web avanzadas.  \n\n### **Herramientas Imprescindibles & DevOps**  \n- **Git, CI/CD (GitHub Actions, Vercel, Netlify)**  \n- **Docker & Kubernetes** (para contenedorización)  \n- **Testing (Vitest, Playwright, Cypress, Jest)**  \n\n### **¿Por qué aprender estas en 2025?**  \n- **Velocidad & Eficiencia**: Herramientas como **Bun, Rust, y WASM** optimizan el rendimiento.  \n- **Integración de IA**: La IA se está integrando en el desarrollo web a un ritmo rápido.  \n- **Edge Computing & Serverless**: Los proveedores cloud están impulsando implementaciones serverless/edge.  \n- **Dominio Full-Stack**: Frameworks como **Next.js, SvelteKit, y Remix** difuminan las líneas frontend/backend.  \n\nConcéntrate en **React + Next.js, Rust/Go para backend, TypeScript, e integraciones de IA** para máximas oportunidades en 2025. 🚀  \n\n¿Te gustaría una hoja de ruta personalizada basada en tus objetivos?",
                 "timestamp": 1755159100513,
             },
             {
                 "isImage": false,
                 "isPublished": false,
                 "role": "user",
-                "content": "write a code for basic express app ",
+                "content": "escribe un código para una aplicación express básica",
                 "timestamp": 1755159129597,
             },
             {
                 "isImage": false,
                 "isPublished": false,
                 "role": "assistant",
-                "content": "# Basic Express.js Application\n\nHere's a simple Express.js application setup with some basic routes:\n\n```javascript\n// Import required modules\nconst express = require('express');\nconst path = require('path');\n\n// Create an Express application\nconst app = express();\nconst PORT = process.env.PORT || 3000;\n\n// Middleware\napp.use(express.json()); // For parsing application/json\napp.use(express.urlencoded({ extended: true })); // For parsing application/x-www-form-urlencoded\n\n// Serve static files from the 'public' directory\napp.use(express.static(path.join(__dirname, 'public')));\n\n// Basic routes\napp.get('/', (req, res) => {\n  res.send('Welcome to the Express App!');\n});\n\napp.get('/about', (req, res) => {\n  res.send('About Page');\n});\n\n// Example route with parameters\napp.get('/user/:id', (req, res) => {\n  res.send(`User ID: ${req.params.id}`);\n});\n\n// Example POST route\napp.post('/api/data', (req, res) => {\n  console.log(req.body);\n  res.json({ message: 'Data received', data: req.body });\n});\n\n// 404 Error handler\napp.use((req, res) => {\n  res.status(404).send('404 - Not Found');\n});\n\n// Error handling middleware\napp.use((err, req, res, next) => {\n  console.error(err.stack);\n  res.status(500).send('Something went wrong!');\n});\n\n// Start the server\napp.listen(PORT, () => {\n  console.log(`Server is running on http://localhost:${PORT}`);\n});\n```\n\n## Setup Instructions\n\n1. Make sure you have Node.js installed\n2. Create a new directory for your project\n3. Initialize a new Node.js project:\n   ```bash\n   npm init -y\n   ```\n4. Install Express:\n   ```bash\n   npm install express\n   ```\n5. Save the code above in a file named `app.js`\n6. Create a `public` directory if you want to serve static files\n7. Start the server:\n   ```bash\n   node app.js\n   ```\n\n## Features\n- Basic routes ('/', '/about', '/user/:id')\n- POST route for handling form data\n- Static file serving\n- Error handling\n- JSON body parsing\n\nYou can expand this basic setup by adding more routes, connecting to a database, or adding middleware as needed.",
+                "content": "# Aplicación Express.js Básica\n\nAquí hay una configuración simple de aplicación Express.js con algunas rutas básicas:\n\n```javascript\n// Importar módulos requeridos\nconst express = require('express');\nconst path = require('path');\n\n// Crear una aplicación Express\nconst app = express();\nconst PORT = process.env.PORT || 3000;\n\n// Middleware\napp.use(express.json()); // Para analizar application/json\napp.use(express.urlencoded({ extended: true })); // Para analizar application/x-www-form-urlencoded\n\n// Servir archivos estáticos desde el directorio 'public'\napp.use(express.static(path.join(__dirname, 'public')));\n\n// Rutas básicas\napp.get('/', (req, res) => {\n  res.send('¡Bienvenido a la Aplicación Express!');\n});\n\napp.get('/acerca', (req, res) => {\n  res.send('Página Acerca de');\n});\n\n// Ejemplo de ruta con parámetros\napp.get('/usuario/:id', (req, res) => {\n  res.send(`ID de Usuario: ${req.params.id}`);\n});\n\n// Ejemplo de ruta POST\napp.post('/api/datos', (req, res) => {\n  console.log(req.body);\n  res.json({ mensaje: 'Datos recibidos', datos: req.body });\n});\n\n// Manejador de error 404\napp.use((req, res) => {\n  res.status(404).send('404 - No Encontrado');\n});\n\n// Middleware de manejo de errores\napp.use((err, req, res, next) => {\n  console.error(err.stack);\n  res.status(500).send('¡Algo salió mal!');\n});\n\n// Iniciar el servidor\napp.listen(PORT, () => {\n  console.log(`Servidor corriendo en http://localhost:${PORT}`);\n});\n```\n\n## Instrucciones de Configuración\n\n1. Asegúrate de tener Node.js instalado\n2. Crea un nuevo directorio para tu proyecto\n3. Inicializa un nuevo proyecto Node.js:\n   ```bash\n   npm init -y\n   ```\n4. Instala Express:\n   ```bash\n   npm install express\n   ```\n5. Guarda el código anterior en un archivo llamado `app.js`\n6. Crea un directorio `public` si quieres servir archivos estáticos\n7. Inicia el servidor:\n   ```bash\n   node app.js\n   ```\n\n## Características\n- Rutas básicas ('/', '/acerca', '/usuario/:id')\n- Ruta POST para manejar datos de formularios\n- Servicio de archivos estáticos\n- Manejo de errores\n- Análisis de cuerpo JSON\n\nPuedes expandir esta configuración básica agregando más rutas, conectándote a una base de datos o agregando middleware según sea necesario.",
                 "timestamp": 1755159145294,
             },
             {
                 "isImage": false,
                 "isPublished": false,
                 "role": "user",
-                "content": "generate a image of gaming pc setup in a room in realistic style",
+                "content": "genera una imagen de una configuración de pc gaming en una habitación en estilo realista",
                 "timestamp": 1755159264109,
             },
             {
@@ -211,21 +211,21 @@ export const dummyChats = [
                 "isImage": false,
                 "isPublished": false,
                 "role": "user",
-                "content": "what are web3",
+                "content": "qué es web3",
                 "timestamp": 1755159666525,
             },
             {
                 "isImage": false,
                 "isPublished": false,
                 "role": "assistant",
-                "content": "**Web3** (or **Web 3.0**) refers to the next evolution of the internet, centered on **decentralization, blockchain technology, and user ownership of data**. It aims to shift control from large tech companies to users by leveraging cryptographic protocols and peer-to-peer networks.\n\n### **Key Features of Web3:**\n1. **Decentralization**  \n   - No single entity controls the internet; instead, it operates on distributed networks (like blockchains or peer-to-peer systems).\n   - Contrasts with Web2 (the current internet), dominated by centralized platforms like Google, Facebook, and Amazon.\n\n2. **Blockchain & Cryptocurrency**  \n   - Uses blockchain (e.g., Ethereum, Solana) for trustless transactions and smart contracts.\n   - Cryptocurrencies (e.g., Bitcoin, ETH) enable value transfer without intermediaries.\n\n3. **User Ownership & Digital Identity**  \n   - Users own their data (via **decentralized identity** solutions) and monetize it directly.\n   - NFTs (Non-Fungible Tokens) allow ownership of digital assets (art, music, virtual land).\n\n4. **Interoperability & Openness**  \n   - Applications (dApps) can interact seamlessly across different blockchains.\n   - Open-source protocols reduce reliance on proprietary platforms.\n\n5. **Tokenized Incentives**  \n   - Users and developers are rewarded with tokens (e.g., governance tokens, staking rewards).\n\n### **Examples of Web3 Technologies:**\n- **DeFi (Decentralized Finance)** – Peer-to-peer financial services (e.g., Uniswap, Aave).  \n- **NFTs & Digital Ownership** – CryptoPunks, OpenSea, and blockchain gaming.  \n- **DAOs (Decentralized Autonomous Organizations)** – Community-governed entities (e.g., MakerDAO).  \n- **Decentralized Storage** – IPFS, Filecoin (vs. centralized cloud storage like AWS).  \n\n### **Web3 vs. Web2 vs. Web1**\n- **Web1 (1990s-2000s):** Read-only static websites (e.g., early HTML pages).  \n- **Web2 (2000s-present):** Interactive, social media, cloud computing (Facebook, YouTube).  \n- **Web3 (emerging):** Decentralized, user-owned, token-based economies.  \n\n### **Challenges of Web3**\n- **Scalability:** Blockchains struggle with speed and cost (e.g., Ethereum gas fees).  \n- **Regulation:** Governments are still figuring out crypto laws.  \n- **User Experience:** Complex for non-technical users.  \n\nWould you like a deeper dive into any specific aspect? 🚀",
+                "content": "**Web3** (o **Web 3.0**) se refiere a la próxima evolución de internet, centrada en la **descentralización, tecnología blockchain y propiedad de datos del usuario**. Su objetivo es transferir el control de las grandes empresas tecnológicas a los usuarios mediante protocolos criptográficos y redes peer-to-peer.\n\n### **Características Clave de Web3:**\n1. **Descentralización**  \n   - Ninguna entidad única controla internet; en su lugar, opera en redes distribuidas (como blockchains o sistemas peer-to-peer).\n   - Contrasta con Web2 (el internet actual), dominado por plataformas centralizadas como Google, Facebook y Amazon.\n\n2. **Blockchain y Criptomonedas**  \n   - Usa blockchain (por ejemplo, Ethereum, Solana) para transacciones sin confianza y contratos inteligentes.\n   - Las criptomonedas (por ejemplo, Bitcoin, ETH) permiten la transferencia de valor sin intermediarios.\n\n3. **Propiedad del Usuario e Identidad Digital**  \n   - Los usuarios poseen sus datos (a través de soluciones de **identidad descentralizada**) y los monetizan directamente.\n   - Los NFTs (Tokens No Fungibles) permiten la propiedad de activos digitales (arte, música, tierra virtual).\n\n4. **Interoperabilidad y Apertura**  \n   - Las aplicaciones (dApps) pueden interactuar sin problemas a través de diferentes blockchains.\n   - Los protocolos de código abierto reducen la dependencia de plataformas propietarias.\n\n5. **Incentivos Tokenizados**  \n   - Los usuarios y desarrolladores son recompensados con tokens (por ejemplo, tokens de gobernanza, recompensas por staking).\n\n### **Ejemplos de Tecnologías Web3:**\n- **DeFi (Finanzas Descentralizadas)** – Servicios financieros peer-to-peer (por ejemplo, Uniswap, Aave).  \n- **NFTs y Propiedad Digital** – CryptoPunks, OpenSea y juegos blockchain.  \n- **DAOs (Organizaciones Autónomas Descentralizadas)** – Entidades gobernadas por la comunidad (por ejemplo, MakerDAO).  \n- **Almacenamiento Descentralizado** – IPFS, Filecoin (vs. almacenamiento en la nube centralizado como AWS).  \n\n### **Web3 vs. Web2 vs. Web1**\n- **Web1 (1990s-2000s):** Sitios web estáticos de solo lectura (por ejemplo, primeras páginas HTML).  \n- **Web2 (2000s-presente):** Interactivo, redes sociales, computación en la nube (Facebook, YouTube).  \n- **Web3 (emergente):** Descentralizado, propiedad del usuario, economías basadas en tokens.  \n\n### **Desafíos de Web3**\n- **Escalabilidad:** Las blockchains luchan con velocidad y costo (por ejemplo, tarifas de gas de Ethereum).  \n- **Regulación:** Los gobiernos todavía están descubriendo las leyes de criptomonedas.  \n- **Experiencia de Usuario:** Complejo para usuarios no técnicos.  \n\n¿Te gustaría profundizar en algún aspecto específico? 🚀",
                 "timestamp": 1755159683847,
             },
             {
                 "isImage": false,
                 "isPublished": false,
                 "role": "user",
-                "content": "Generate a image nature with trees  in realistic style",
+                "content": "Genera una imagen de naturaleza con árboles en estilo realista",
                 "timestamp": 1755160243315,
             },
             {
@@ -239,7 +239,7 @@ export const dummyChats = [
                 "isImage": false,
                 "isPublished": false,
                 "role": "user",
-                "content": "a gaming pc setup ",
+                "content": "una configuración de pc gaming",
                 "timestamp": 1755163772103,
             },
             {
@@ -253,7 +253,7 @@ export const dummyChats = [
                 "isImage": false,
                 "isPublished": false,
                 "role": "user",
-                "content": "a streaming setup with mic and accessory's ",
+                "content": "una configuración de streaming con micrófono y accesorios",
                 "timestamp": 1755163990514,
             },
             {
@@ -272,7 +272,7 @@ export const dummyChats = [
     {
         "_id": Date.now(),
         "userId": "gs123456789",
-        "name": "New Chat",
+        "name": "Nuevo Chat",
         "userName": "GreatStack",
         "messages": [],
         "createdAt": "2025-08-13T17:29:52.421Z",
