@@ -5,9 +5,11 @@ import ChatBox from './components/ChatBox'
 import Credits from './pages/Credits'
 import Community from './pages/Community'
 import { assets } from './assets/assets'
+import './assets/prism.css'
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false)
+
   return (
     <>
       {!isMenuOpen && <img src={assets.menu_icon} className='absolute top-3 left-3 
